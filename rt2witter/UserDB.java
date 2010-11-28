@@ -130,8 +130,10 @@ public class UserDB {
 
 	/**
 	 * 
-	 * @param userLogin The corresponding login for which we want to retrieve the tweets
-	 * @return
+	 * @param userLogin The corresponding login for which we want to retrieve the tweets. 
+	 * @return 2D-Array: 
+	 * <ul>
+	 * </ul> 
 	 */
 	public static String[][] loadTweets(String userLogin) {
 		String[][] result = null ;
@@ -170,7 +172,7 @@ public class UserDB {
 		try {
 			BufferedReader reader = 
 				new BufferedReader(new FileReader(UserDB.db_prefix + "/" + userLogin + UserDB.file_suffix )) ;
-			int nbLineToSkip = 1 ;
+			int nbLineToSkip = 2 ;
 			UserDB.skipLines(nbLineToSkip, reader) ;
 			result = reader.readLine().split(":") ;
 			reader.close() ;
@@ -187,7 +189,7 @@ public class UserDB {
 		try {
 			BufferedReader reader = 
 				new BufferedReader(new FileReader(UserDB.db_prefix + "/" + userLogin + UserDB.file_suffix )) ;
-			int nbLineToSkip = 2 ;
+			int nbLineToSkip = 1 ;
 			UserDB.skipLines(nbLineToSkip, reader) ;
 			result = reader.readLine().split(":") ;
 			reader.close() ;
