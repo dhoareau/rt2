@@ -24,8 +24,8 @@
         <div class="menu-item"><a href="#">Menu</a> </div>
 
         <input id="login" type="input" />
-        <input id="password" type="input" />
-        <input id="submit-btn" type="submit" value="clear"/>
+        <input id="password" type="password" />
+        <input id="submit-btn" type="submit" value="Submit"/>
 
     </div>
     <div id="container-content">
