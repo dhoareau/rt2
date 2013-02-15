@@ -1,0 +1,14 @@
+ls
+ls -al 
+pwd
+echo $PWD
+export PATH=$PATH:$PWD
+tar cvzf monarchive.tgz monarchive
+tar xvzf monarchive.tgz
+javac *.java
+find ./ -name "*.java"
+find ~/ -type d
+ps aux | grep java
+more toto.java
+less toto.java
+du -hs . 
