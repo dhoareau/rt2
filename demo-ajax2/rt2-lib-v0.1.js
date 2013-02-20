@@ -13,7 +13,7 @@ $(document).ready(function() {
         //console.log(text);
 
         //$("li").fadeOut(3000).fadeIn(1000) ;
-        $("#chat-window").append(">"+text+"<br/>");
+        
 
         $.post("./chat.php",{chat : text},function(data){
             $("#chat-window").append(">"+data+"<br/>");            
