@@ -26,8 +26,11 @@
         </div>
 
         <div id="chat-input">
-            <input type="text" />
-            <input type="submit" value="post"/>
+            <form action="./chat.php" method="POST">
+                <input type="text" />
+                <input id="btn" type="submit" value="post"/>
+            </form>
+            
         </div>
 
     </div>
