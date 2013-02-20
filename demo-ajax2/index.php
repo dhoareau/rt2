@@ -25,13 +25,17 @@
 
         </div>
 
+        <div id="chat-window-btn">X</div>
+
         <div id="chat-input">
             <form action="./chat.php" method="POST">
-                <input type="text" />
+                <input id="garfield" name="chat" type="text" />
                 <input id="btn" type="submit" value="post"/>
             </form>
             
         </div>
+
+
 
     </div>
 

@@ -7,13 +7,23 @@
 
 #content {
     float : left;
-    width: 76% ; 
+    width: 70% ; 
     margin-left : 2%;
 }
 
 #chat-window {
     height: 200px ;
     border : 1px dotted #0000FF;
+    float: left ;
+    overflow: scroll;
+}
+
+#chat-input {
+    clear: left; 
+}
+
+#chat-window-btn {
+    float: left; 
 }
 
 #header {
