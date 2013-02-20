@@ -1,0 +1,30 @@
+#menu {
+    float :left ;
+    width: 20% ;
+    border : 1px dashed #FF0000;
+
+}
+
+#content {
+    float : left;
+    width: 76% ; 
+    margin-left : 2%;
+}
+
+#chat-window {
+    height: 200px ;
+    border : 1px dotted #0000FF;
+}
+
+#header {
+    border : 1px solid #ccc;
+    width: 100%;
+
+}
+
+#footer {
+    clear : left;
+    border : 1px solid #ccc;
+    width: 100%;
+
+}
